@@ -5,17 +5,18 @@
     <title>Deck Randomizer</title>
 </head>
 <body>
-    <div>
-        <label>Remove Cards:
-            <select id="cardFilter" multiple size="8" style="width:350px"></select>
-        </label>
-        <br>
-        <label>Remove Characters:
-            <select id="characterFilter" multiple size="6" style="width:350px"></select>
-        </label>
-        <br>
-        <button id="runBtn">Randomize Deck</button>
-    </div>
+    <!-- Replace your select elements with these containers -->
+<div>
+  <b>Exclude Characters:</b>
+  <div id="excludeCharactersContainer"></div>
+</div>
+<div>
+  <b>Exclude Cards:</b>
+  <div id="excludeCardsContainer" style="max-height:200px;overflow:auto;"></div>
+</div>
+<button id="runBtn">Generate Deck</button>
+<div id="output"></div>
+    <button onclick="main()">Generate Deck</button>
     <div id="output"></div>
     <script src="main.js"></script>
 </body>
