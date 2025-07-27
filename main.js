@@ -192,7 +192,7 @@ new Card (  "Counter Card",  "Counters the next card they use",  3 ) ,
 new Card (  "Mirror Card",  "Copies the next card they use",  1 ) ,
 new Card (  "Ninja Log",  "Avoid next attack like a ninja!",  2 ) ,
 new Card (  "Self-Destruct Device",  "An explosive surprise when you die",  3 ) 
-    };
+    ];
 
 // Main logic
 function main() {
